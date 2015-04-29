@@ -1,0 +1,41 @@
+div#TPGHelp
+{
+	position: absolute;
+	max-height: 25em;
+	overflow: auto;
+	padding: 0 0.5em;
+	background: #fff;
+	color: #000;
+	border: 5px double #000;
+	border-radius: 8px;
+	width: 40em;
+}
+
+div#TPGHelp button
+{
+	float: right;
+}
+
+div#TPGHelp h2
+{
+	margin: 0.2em;
+}
+
+div#TPGHelp kbd
+{
+	font-weight: bold;
+}
+
+div#TPGHelp *:focus
+{
+	outline: 2px solid #630;
+}
+
+input.select_date
+{
+	width: 10em;
+}
+
+#kybhlpbtn {
+    margin: 5px;
+}
