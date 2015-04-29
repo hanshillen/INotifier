@@ -26,8 +26,8 @@ var TPG = TPG || {};
         }
 
         function getShortcutSet(widgetId, $container) {
-            console.log("-->" + widgetId);
-            console.log(widgetShortcuts[widgetId]);
+            //console.log("-->" + widgetId);
+            //console.log(widgetShortcuts[widgetId]);
             if (!widgetId || !widgetShortcuts[widgetId]) {
                 return;
             }
@@ -40,8 +40,8 @@ var TPG = TPG || {};
             if (!shortcutsObj) {
                 return;
             }
-            console.log(widgetId + "<--");
-            console.log(shortcutsObj.name + "!!!");
+            //console.log(widgetId + "<--");
+            //console.log(shortcutsObj.name + "!!!");
             $objHeading = $('<h3></h3>').attr('tabindex', '-1').text(shortcutsObj.name).appendTo($container);
             $objList = $("<ul></ul>").appendTo($container);
             $.each(shortcutsObj.shortcuts, function (key, value) { // Each keyboard shortcut
@@ -66,13 +66,13 @@ var TPG = TPG || {};
                 objList,
                 objItem,
                 iIndex;
-            console.log(shortcutIds);
+            //console.log(shortcutIds);
             objExisting = $('#TPGHelp');
             if (objExisting.length) { // Toggle off if the dialog exists
                 closeDialog();
             } else {
                 // Add dialog with the shortcuts
-                console.log("bahlll");
+                //console.log("bahlll");
                 if (!shortcutIds || !shortcutIds.current || !shortcutIds.parents || (!shortcutIds.current.length && !shortcutIds.parents.length && !shortcutIds.global.length && !shortcutIds.children.length)) {
                     return;
                 }
@@ -98,7 +98,7 @@ var TPG = TPG || {};
                         $groupHeading = $("<h2></h2>").text(e === "current" ? "Current Element" : "Inherited").appendTo($shortcutSetContainer);
                         $.each(shortcutSet, function (i, widgetId) {
                             getShortcutSet(widgetId, $shortcutSetContainer);
-                            console.log($shortcutSetContainer);
+                            //console.log($shortcutSetContainer);
                         });
                     }
                 });
