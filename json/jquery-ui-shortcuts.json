@@ -1,0 +1,159 @@
+{
+    "jqui.dialog": {
+        "name": "Modal Dialog",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "ENTER",
+                "desc": "Submit the form if the dialog collects data."
+ },
+            {
+                "shortcut": "ESC",
+                "desc": "Closes the dialog."
+ },
+            {
+                "shortcut": "TAB",
+                "desc": "Moves to the next focusable interface element in the dialog."
+ },
+            {
+                "shortcut": "SHIFT + TAB",
+                "desc": "Moves to the previously focusable interface element in the dialog."
+ }
+]
+    },
+
+    "jqui.tabs": {
+        "name": "Tab List",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "ENTER",
+                "desc": "Submit the form if the dialog collects data."
+ },
+            {
+                "shortcut": "SHIFT + TAB",
+                "desc": "Moves to the previously focusable interface element in the dialog."
+ }
+
+]
+    },
+    "jqui.calendar": {
+        "name": "Date Picker",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "SPACE or ENTER",
+                "desc": "Selects the currently focused date."
+ },
+            {
+                "shortcut": "UP ARROW",
+                "desc": "Moves focus to the same day of the previous week."
+ },
+            {
+                "shortcut": "DOWN ARROW",
+                "desc": "Moves focus to the same day of the next week."
+ },
+            {
+                "shortcut": "LEFT ARROW",
+                "desc": "Moves focus to the previous day."
+ },
+            {
+                "shortcut": "RIGHT ARROW",
+                "desc": "Moves focus to the next day."
+ },
+            {
+                "shortcut": "PAGE UP",
+                "desc": "Moves focus to the same day of the previous month."
+ },
+            {
+                "shortcut": "PAGE DOWN",
+                "desc": "Moves focus to the same day of the next month."
+ },
+            {
+                "shortcut": "ALT + PAGE UP",
+                "desc": "Moves focus to the same day of the previous year."
+ },
+            {
+                "shortcut": "ALT + PAGE DOWN",
+                "desc": "Moves focus to the same day of the next year."
+ },
+            {
+                "shortcut": "HOME",
+                "desc": "Moves to the first day of the current month."
+ },
+            {
+                "shortcut": "END",
+                "desc": "Moves to the last day of the current month."
+ },
+            {
+                "shortcut": "ESC",
+                "desc": "Closes the calendar without action."
+ }
+]
+    },
+    "jqui.spinner": {
+        "name": "Spinner",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "Up Arrow",
+                "desc": "Increment the value by one step."
+ },
+            {
+                "shortcut": "Up Arrow",
+                "desc": "Increment the value by one step."
+ },
+            {
+                "shortcut": "Down Arrow",
+                "desc": "Decrement the value by one step."
+ },
+            {
+                "shortcut": "Page Up",
+                "desc": "Increment the value by one page."
+ },
+            {
+                "shortcut": "Page Down",
+                "desc": "Decrement the value by one page."
+ }
+]
+    },
+    "jqui.accordion": {
+        "name": "Accordion",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "TAB",
+                "desc": "Moves to the next focusable element."
+ },
+            {
+                "shortcut": "LEFT ARROW or UP ARROW",
+                "desc": "Moves to previous accordion tab."
+ },
+            {
+                "shortcut": "RIGHT ARROW or DOWN ARROW",
+                "desc": "Moves to next accordion tab."
+ },
+            {
+                "shortcut": "CONTROL + UP ARROW",
+                "desc": "Moves focus to the tab if in a tab panel."
+ },
+            {
+                "shortcut": "HOME",
+                "desc": "Moves focus to the first tab in the accordion."
+ },
+            {
+                "shortcut": "END",
+                "desc": "Moves focus to the last tab in the accordion."
+ },
+            {
+                "shortcut": "SPACE or ENTER",
+                "desc": "Selects the currently focused tab."
+ }
+]
+    }
+}
