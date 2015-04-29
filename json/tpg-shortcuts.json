@@ -1,0 +1,46 @@
+{
+    "tpg.formvalidation": {
+        "name": "Form Validation",
+        "inherits": false,
+        "scope": "widget",
+        "shortcuts": [
+            {
+                "shortcut": "SHIFT + ALT + UP ARROW",
+                "desc": "Places focus on the error summary list."
+ },
+            {
+                "shortcut": "SHIFT + ALT + LEFT ARROW",
+                "desc": "Places focus on the previous field in error."
+ },
+            {
+                "shortcut": "SHIFT + ALT + RIGHT ARROW",
+                "desc": "Places focus on the next field in error."
+ }
+]
+    },
+
+    "tpg.interactionnotifier": {
+        "name": "Shortcuts Help Dialog",
+        "inherits": false,
+        "scope": "global",
+        "shortcuts": [
+            {
+                "shortcut": "Alt + F1",
+                "desc": "Opens the dialog containing keyboard instructions."
+ },
+            {
+                "shortcut": "ESC (While dialog is showing)",
+                "desc": "Closes the dialog containing the keyboard instructions."
+ }
+]
+    },
+    "tpg.general": {
+        "name": "General",
+        "inherits": true,
+        "scope": "global",
+        "shortcuts": [{
+            "shortcut": "test",
+            "desc": "test"
+        }]
+    }
+}
